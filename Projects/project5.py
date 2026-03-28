@@ -23,7 +23,7 @@ class Manager(Employee):
         super().__init__(emp_id, name, age, salary)
         self.department = department
 
-    def display(self):   # overriding
+    def display(self):   
         super().display()
         print(f"Department: {self.department}")
 
@@ -33,7 +33,7 @@ class Developer(Employee):
         super().__init__(emp_id, name, age, salary)
         self.language = language
 
-    def display(self):   # overriding
+    def display(self):      
         super().display()
         print(f"Language: {self.language}")
 
