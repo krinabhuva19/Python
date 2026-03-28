@@ -7,6 +7,7 @@ class Employee:
 
     def set_salary(self, salary):
         self.__salary = salary
+        
 
     def get_salary(self):
         return self.__salary
